@@ -20,3 +20,18 @@ class TestFixJson(unittest.TestCase):
             self.assertTrue(
                 isinstance(repaired_json_dict, expected_type), "rule-based 修復 json 功能"
             )
+
+
+    def test_fail_test(self):
+        error_cases = [
+            # fail
+            ("invalid_value", '{"age": 101a2}', dict),
+            ("invalid_key", '{test1: "value"}', dict),
+        ]
+        for error_type, json_str, expected_type in error_cases:
+            repaired_str = jsonfixer.JsonRepair(json_str).repair()
+            repaired_json_dict = json.loads(repaired_str)
+            self.assertTrue(
+                isinstance(repaired_json_dict, expected_type), "rule-based 修復 json 功能"
+            )
+
