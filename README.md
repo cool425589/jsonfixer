@@ -1,5 +1,3 @@
-Sure! Below is the README format for your JSON-related Python package:
-
 # JSON Fixer
 
 JSON Fixer is a versatile Python package designed to efficiently handle and correct JSON data. With its user-friendly interface, the package offers seamless JSON data manipulation and restoration capabilities, making it an essential tool for developers working with JSON files and APIs.
@@ -14,10 +12,22 @@ JSON Fixer is a versatile Python package designed to efficiently handle and corr
 
 ## Installation
 
-You can install JSON Fixer using pip:
+### From PyPI
 
-```
+You can install JSON Fixer using pip from the Python Package Index (PyPI):
+
+```bash
 pip install jsonfixer
+```
+
+### From GitHub
+
+Alternatively, you can clone the repository from GitHub and install it manually:
+
+```bash
+git clone https://github.com/cool425589/jsonfixer.git
+cd jsonfixer
+pip install .
 ```
 
 ## Usage
@@ -47,6 +57,3 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 ## Contact
 
 For any inquiries or questions, please contact us at cool425589@gmail.com
-
----
-(Note: Replace `jsonfixer` in the Installation section with your actual package name, and update the contact email and License information accordingly.)
