@@ -35,7 +35,8 @@ pip install .
 ```python
 import jsonfixer
 
-# Your JSON manipulation and correction code here
+repaired_str = jsonfixer.JsonRepair("{the json str you wanna fix}").repair()
+
 ```
 
 ## Example
@@ -43,7 +44,15 @@ import jsonfixer
 ```python
 import jsonfixer
 
-# Example code demonstrating how to use JSON Fixer
+# Your JSON manipulation and correction code here
+json_str = """ {"school":"台灣大學","department":"資訊工程",} """
+repaired_str = jsonfixer.JsonRepair(json_str).repair()
+
+```
+
+```
+>>> repaired_str
+' {"school":"台灣大學","department":"資訊工程"} '
 ```
 
 ## Contributions
