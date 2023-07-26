@@ -42,11 +42,11 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/cool425589/jsonfixer/blob/main/LICENSE.txt) file for details.
 
 ## Contact
 
-For any inquiries or questions, please contact us at contact@example.com.
+For any inquiries or questions, please contact us at cool425589@gmail.com
 
 ---
 (Note: Replace `jsonfixer` in the Installation section with your actual package name, and update the contact email and License information accordingly.)
